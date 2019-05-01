@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tv_fr_city"
+                tools:text="City name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textSize="@dimen/item_big_text_size"
+                android:gravity="center"/>
+
+        <ImageView
+                android:id="@+id/iv_fr_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                tools:srcCompat="@tools:sample/avatars"
+                android:contentDescription="@string/the_image_of_the_city"
+                android:gravity="center"/>
+
+        <TextView
+                android:id="@+id/tv_fr_info"
+                tools:text="Any useful information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:gravity="center"/>
+    </LinearLayout>
+</ScrollView>

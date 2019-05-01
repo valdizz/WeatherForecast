@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/action_sort_by_name"
+            android:icon="@drawable/ic_sort_by_alphabet"
+            android:title="@string/sort_by_name"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/action_sort_by_name_desc"
+            android:icon="@drawable/ic_sort_by_alphabet_desc"
+            android:title="@string/sort_by_name_descending"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/action_sort_by_temp"
+            android:icon="@drawable/ic_sort_by_numeric"
+            android:title="@string/sort_by_temperature"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/action_sort_by_temp_desc"
+            android:icon="@drawable/ic_sort_by_numeric_desc"
+            android:title="@string/sort_by_temperature_descending"
+            app:showAsAction="ifRoom"/>
+</menu>
